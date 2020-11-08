@@ -1,0 +1,97 @@
+body {
+    background-image: url(assets/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: monospace;
+    color: lavenderblush;
+    display: flex;
+    justify-content: space-around;
+    overflow-y: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "->";
+    color: rgb(186, 221, 253);
+    margin-right: 10px;
+}
+
+::selection {
+    background-color: rgb(129, 108, 108);
+    cursor: row-resize;
+}
+
+a {
+    box-sizing: content-box;
+    color: rgb(248, 219, 219);
+    text-decoration: none;
+    padding: 2px 7px;
+    padding-right: 0px;
+}
+
+a:focus {
+    box-sizing: content-box;
+    border: 3px solid;
+    border-color: white;
+    padding: 2px 4px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    height: 100vh;
+}
+
+#text1 {
+    display: flex;
+    justify-content: center;
+}
+
+#my_photo {
+    height: 80vh;
+    width: 30vw;
+}
+
+main {
+    width: 60vw;
+    font-size: 1rem;
+}
+
+main ul {
+    color: rgb(186, 221, 253);
+}
+
+#name {
+    margin-top: 10vh;
+    font-size: 2rem;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+}
+
+#social_icons {
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+    margin-left: 20px;
+}
+
+#google {
+    width: 35px;
+    height: 40px;
+    margin-top: -4px;
+}
+
+#linkedin {
+    width: 30px;
+    height: 30px;
+}
+
+#github {
+    width: 30px;
+    height: 30px;
+}
