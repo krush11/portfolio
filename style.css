@@ -1,5 +1,5 @@
 body {
-    background-image: url(assets/background.jpg);
+    background-image: url(assets/background.jepg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-family: monospace;
@@ -21,7 +21,7 @@ ul li::before {
 
 ul li {
     margin-bottom: 1rem;
-    font-size: larger;
+    /* font-size: larger; */
 }
 
 a {
@@ -33,7 +33,7 @@ a {
 }
 
 a:visited{
-    color: rgb(255, 153, 153);
+    color: rgb(255, 59, 59);
 }
 
 a:focus {
@@ -67,14 +67,14 @@ main {
 }
 
 main ul {
-    color: rgb(186, 221, 253);
+    color: rgb(0, 224, 233);
 }
 
 #name {
     margin-top: 10vh;
     font-size: 2rem;
     font-weight: 550;
-    color: rgb(255, 255, 255);
+    color: rgb(126, 255, 206);
 }
 
 #social-icons {
