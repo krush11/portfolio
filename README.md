@@ -6,7 +6,7 @@ The site contains basic information about me
 ## Building the code
  Clone the website into a local folder:
  ```bash
-  git clone https://github.com/krush11/personal-website.git
+  git clone https://github.com/krush11/portfolio portfolio
  ```
 
  ## Contributions
