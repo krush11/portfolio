@@ -2,7 +2,7 @@ body {
     background-color: black;
     background-size: 100% 100%;
     background-attachment: fixed;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     display: flex;
     justify-content: center;
 }
@@ -11,6 +11,7 @@ body {
     display: inline-block;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+    font-size: 1.5rem;
 }
 
 #nav a {
@@ -90,5 +91,24 @@ main p {
     margin-left: 45px;
     background-color: black;
     font-family: inherit;
+}
 
+@media all and (max-width: 600px) {
+    #main_text {
+        font-size: 1.2rem;
+    }
+
+    #heading {
+        padding: 0 10vw;
+    }
+
+    main {
+        width: 90vw;
+    }
+}
+
+@media all and (max-width: 320px) {
+    #main_text {
+        font-size: 1rem;
+    }
 }

@@ -14,12 +14,13 @@ ul {
 }
 
 ul li::before {
-    content: "->";
+    /* content: "->"; */
     color: rgb(255, 255, 255);
     margin-right: 10px;
 }
 
 ul li {
+    list-style: inside;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
@@ -70,7 +71,6 @@ main {
     flex-direction: column;
     justify-content: center;
     transform: translate(-20%, -5%);
-    /* align-items: center; */
 }
 
 main ul {
