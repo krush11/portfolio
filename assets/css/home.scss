@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:300,400,500,700,900&amp;display=swap");
+
+body {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    user-select: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+p {
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+aside {
+    background-color: #091a28;
+    min-width: fit-content !important;
+    padding: 2rem;
+    display: flex;
+    padding-bottom: 0;
+    flex-direction: column;
+    box-sizing: content-box;
+}
+
+#name {
+    height: max-content;
+    text-align: justify;
+}
+
+#name_1 {
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: bold;
+    width: 100%;
+    color: white;
+}
+
+#nav_bar {
+    width: 100%;
+    height: 40vh;
+    color: white;
+    transform: translate(0, 15vh);
+    display: flex;
+    flex-direction: column;
+}
+
+#nav_bar ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+    color: white;
+    transition: all 0.5s;
+    margin: 1rem 0;
+}
+
+#nav_bar ul li:hover {
+    color: red;
+}
+
+#nav_bar img {
+    width: 5vh;
+    height: 5vh;
+    margin-right: 3vw;
+    fill: green;
+    /* margin-left: -1vw; */
+}
+
+#nav_bar a {
+    font-family: "Play";
+    font-size: 1.5rem;
+    color: #000;
+    transition: all 0.2s;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#nav_bar a:hover {
+    color: rgb(226, 43, 43);
+    text-shadow: unset;
+    text-shadow: -2px 2px #000;
+}
+
+#text_1 {
+    color: white;
+    font-family: "Play";
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#social a {
+    border-radius: 50%;
+    margin: 0 0.5rem;
+}
+
+#social img {
+    padding: 0.5rem;
+    height: 20px;
+    width: 20px;
+}
+
+main {
+    background-color: rgb(215, 253, 253);
+    width: 80vw;
+    height: 100vh;
+}
+
+#footer {
+    margin-top: 25vh;
+}
+
+#gmail {
+    border: 1.5px solid #bb001c;
+}
+
+#github {
+    border: 1.5px solid #4840c0;
+}
+
+#linkedin {
+    border: 1.5px solid #0077b5;
+}
+
+#twitter {
+    border: 1.5px solid #1da1f2;
+}
+
+#instagram {
+    border: 1.5px solid #e1306c;
+}
+
+#gmail:hover {
+    box-shadow: 0 0 15px 1px #bb001b;
+}
+
+#github:hover {
+    box-shadow: 0 0 15px 1px #4840c0;
+}
+
+#linkedin:hover {
+    box-shadow: 0 0 15px 1px #0077b5;
+}
+
+#twitter:hover {
+    box-shadow: 0 0 15px 1px #1da1f2;
+}
+
+#instagram:hover {
+    box-shadow: 0 0 15px 1px #e1306c;
+}
+
+.content {
+    display: none;
+}
+
+.content > div {
+    height: 100vh;
+    width: 80vw;
+}
+
+#me {
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+}
+
+#profile {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+}
+
+#my_name {
+    font-size: 3.5rem;
+}
+
+#about_me p {
+    all: unset;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#skills div {
+    flex-wrap: wrap;
+    width: 100%;
+    height: max-content;
+}
+
+#skills img {
+    max-width: 5rem;
+    max-height: 5rem;
+    margin: 2rem;
+}
+
+#skills > div > div {
+    margin: 3rem 0;
+    width: 70%;
+}
+
+#experience > div > div{
+    overflow-y: scroll;
+    height: 80vh;
+    width: 75%;
+}
+
+.exp-sec {
+    padding-bottom: 0.5rem !important;
+    padding-top: 0.5rem !important;
+}
+
+.exp-sec a {
+    color: #0056b3;
+}
+
+.desc h4 {
+    font-family: "Play";
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.desc p {
+    margin-bottom: 0.75rem;
+}
+
+.list li {
+    margin: 0.25rem 0;
+}
+
+.timeline p {
+    margin-bottom: 1rem;
+}
